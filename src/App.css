@@ -24,3 +24,8 @@ body {
 .card.glow {
   background-color: rgb(0, 170, 255);
 }
+
+.button {
+  padding: 15px;
+  border: 0.3em solid #000;
+}
