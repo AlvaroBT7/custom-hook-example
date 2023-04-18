@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: content-box;
+}
+
+body {
+  background: radial-gradient(#eee, #ddd);
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.card {
+  display: inline-block;
+  background-color: #222731;
+  color: #fff;
+  padding: 15px;
+  user-select: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.card.glow {
+  background-color: rgb(0, 170, 255);
+}
